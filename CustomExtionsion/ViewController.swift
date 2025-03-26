@@ -8,6 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let testView: UIView = .make()
+    
+    let testLabel: UILabel = UILabel.make()
 
     override func viewDidLoad() {
         super.viewDidLoad()

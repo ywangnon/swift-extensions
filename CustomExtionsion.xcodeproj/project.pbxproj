@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01207D682D942B16000D2A89 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01207D672D942B16000D2A89 /* UIView+Extensions.swift */; };
+		01207D6A2D94368A000D2A89 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01207D692D94368A000D2A89 /* UIButton+Extensions.swift */; };
+		01207D6C2D9439AA000D2A89 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01207D6B2D9439A6000D2A89 /* UILabel+Extensions.swift */; };
+		01207D6E2D943A65000D2A89 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01207D6D2D943A65000D2A89 /* UIImageView+Extensions.swift */; };
+		01207D702D943AA0000D2A89 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01207D6F2D943AA0000D2A89 /* UITextField+Extensions.swift */; };
+		01207D722D944160000D2A89 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01207D712D944160000D2A89 /* UIStackView+Extensions.swift */; };
 		01CF315F288A3C8D004B8CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF315E288A3C8D004B8CC6 /* AppDelegate.swift */; };
 		01CF3161288A3C8D004B8CC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF3160288A3C8D004B8CC6 /* SceneDelegate.swift */; };
 		01CF3163288A3C8D004B8CC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF3162288A3C8D004B8CC6 /* ViewController.swift */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01207D672D942B16000D2A89 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		01207D692D94368A000D2A89 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		01207D6B2D9439A6000D2A89 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		01207D6D2D943A65000D2A89 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		01207D6F2D943AA0000D2A89 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		01207D712D944160000D2A89 /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
 		01CF315B288A3C8D004B8CC6 /* CustomExtionsion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomExtionsion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01CF315E288A3C8D004B8CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01CF3160288A3C8D004B8CC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +74,12 @@
 				01CF3160288A3C8D004B8CC6 /* SceneDelegate.swift */,
 				01CF3162288A3C8D004B8CC6 /* ViewController.swift */,
 				01CF3172288A3CA0004B8CC6 /* UIColorExtionsion.swift */,
+				01207D672D942B16000D2A89 /* UIView+Extensions.swift */,
+				01207D692D94368A000D2A89 /* UIButton+Extensions.swift */,
+				01207D6B2D9439A6000D2A89 /* UILabel+Extensions.swift */,
+				01207D6D2D943A65000D2A89 /* UIImageView+Extensions.swift */,
+				01207D6F2D943AA0000D2A89 /* UITextField+Extensions.swift */,
+				01207D712D944160000D2A89 /* UIStackView+Extensions.swift */,
 				01CF3164288A3C8D004B8CC6 /* Main.storyboard */,
 				01CF3167288A3C8E004B8CC6 /* Assets.xcassets */,
 				01CF3169288A3C8E004B8CC6 /* LaunchScreen.storyboard */,
@@ -142,8 +160,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				01CF3163288A3C8D004B8CC6 /* ViewController.swift in Sources */,
+				01207D6A2D94368A000D2A89 /* UIButton+Extensions.swift in Sources */,
+				01207D6C2D9439AA000D2A89 /* UILabel+Extensions.swift in Sources */,
 				01CF315F288A3C8D004B8CC6 /* AppDelegate.swift in Sources */,
+				01207D682D942B16000D2A89 /* UIView+Extensions.swift in Sources */,
 				01CF3161288A3C8D004B8CC6 /* SceneDelegate.swift in Sources */,
+				01207D702D943AA0000D2A89 /* UITextField+Extensions.swift in Sources */,
+				01207D722D944160000D2A89 /* UIStackView+Extensions.swift in Sources */,
+				01207D6E2D943A65000D2A89 /* UIImageView+Extensions.swift in Sources */,
 				01CF3173288A3CA0004B8CC6 /* UIColorExtionsion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
