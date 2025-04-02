@@ -35,4 +35,16 @@ extension Calendar {
         let components = gregorian.dateComponents([.year], from: birth, to: now)
         return components.year
     }
+    
+    /// 두 날짜 사이의 일 수를 계산 (Gregorian 기준)
+    /// - Parameters:
+    ///   - from: 시작 날짜
+    ///   - to: 종료 날짜
+    /// - Returns: 날짜 차이 (일 단위)
+    static func daysBetween(from startDate: Date, to endDate: Date) -> Int? {
+        let startOfDay = gregorian.startOfDay(for: startDate)
+        let endOfDay = gregorian.startOfDay(for: endDate)
+        let components = gregorian.dateComponents([.day], from: startOfDay, to: endOfDay)
+        return components.day
+    }
 }
