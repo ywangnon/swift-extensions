@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		01808C672D9D75640012669A /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01808C662D9D755A0012669A /* Date+Extensions.swift */; };
 		01808C692D9D87090012669A /* Calendar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01808C682D9D87020012669A /* Calendar+Extensions.swift */; };
+		01A9011E2DAAC5F400D6FBEA /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A9011D2DAAC5EC00D6FBEA /* String+Extensions.swift */; };
 		01CF315F288A3C8D004B8CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF315E288A3C8D004B8CC6 /* AppDelegate.swift */; };
 		01CF3161288A3C8D004B8CC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF3160288A3C8D004B8CC6 /* SceneDelegate.swift */; };
 		01CF3163288A3C8D004B8CC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF3162288A3C8D004B8CC6 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		01808C662D9D755A0012669A /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		01808C682D9D87020012669A /* Calendar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Extensions.swift"; sourceTree = "<group>"; };
+		01A9011D2DAAC5EC00D6FBEA /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		01CF315B288A3C8D004B8CC6 /* CustomExtionsion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomExtionsion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01CF315E288A3C8D004B8CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01CF3160288A3C8D004B8CC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		01808C652D9D725E0012669A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				01A9011D2DAAC5EC00D6FBEA /* String+Extensions.swift */,
 				01808C662D9D755A0012669A /* Date+Extensions.swift */,
 				01808C682D9D87020012669A /* Calendar+Extensions.swift */,
 				01CF3172288A3CA0004B8CC6 /* UIColor+Extionsions.swift */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01CF3163288A3C8D004B8CC6 /* ViewController.swift in Sources */,
+				01A9011E2DAAC5F400D6FBEA /* String+Extensions.swift in Sources */,
 				01CF315F288A3C8D004B8CC6 /* AppDelegate.swift in Sources */,
 				01CF3161288A3C8D004B8CC6 /* SceneDelegate.swift in Sources */,
 				01808C672D9D75640012669A /* Date+Extensions.swift in Sources */,
